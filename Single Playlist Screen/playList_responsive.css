@@ -1,0 +1,37 @@
+@media screen and (max-width:576px){
+    .left-two-all-element{
+        display: none;
+    }
+
+    .nav-bar{
+        display: flex;
+        justify-content: center
+    }
+
+    .right-all-element{
+        width: 90%;
+    }
+
+    .notification-icon{
+        display: none;
+    }
+
+    .nav-bar{
+        display: flex !important;
+        justify-content: flex-start  !important;
+    }
+
+    .search-bar{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .search-bar input{
+        width: 100%;
+    }
+
+    .search-bar{
+        margin-left: 0px;
+        margin-right: 4px;
+    }
+}

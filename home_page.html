@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhyey Music Player</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./Logo/Logo Files/For Web/Favicons/browser.png">
+    <script  src="https://kit.fontawesome.com/b3348ae33f.js" crossorigin="anonymous"> </script>
+    <link rel="stylesheet" href="./reponsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAV BAR -->
+
+    <nav id="nav-bar">
+        <div class="nav-bar dis-flex-row">
+
+            <!-- LEFT SIDE TWO ELEMENT -->
+
+            <div class="left-two-all-element dis-flex-row">
+                <div class="logo">
+                    <img src="./Logo/Logo Files/For Web/png/White logo - no background.png" alt="">
+                </div>
+                
+                <div class="home-btn">
+                    <a href="./home_page.html" class="a-decoration-none">Home</a>
+                </div>
+
+                <div class="fav-div">
+                    <a href="./Under Development/under_development.html" class="a-decoration-none">Favourites</a>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE ALL THREE ELEMENTS -->
+
+            <div class="right-all-element dis-flex-row">
+                <div class="empty">
+                    <!-- EMPTY BOX FOR MANAGE SPACE -->
+                </div>
+                <div class="search-bar dis-flex-row">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <div class="search-holder">
+                        <input type="search" placeholder="Search...">
+                    </div>
+
+                    <div class="microphone-icon">
+                        <a href="./Under Development/under_development.html" target="_blank"><i class="fa-solid fa-microphone"></i></a>
+                    </div>
+                </div>
+            
+                <div class="notification-icon">
+                    <a href="./Under Development/under_development.html" target="_blank"><i class="fa-solid fa-bell a-decoration-none"></i></a>
+                </div>
+
+                <div class="profile-img">
+                    <a href="./Under Development/under_development.html" target="_blank"> <img src="./Image/profile-image.jpeg" alt=""></a>
+                </div>
+            </div>
+        </div>  
+    </nav>
+
+    <main>
+        <section id="main-home-ui" class="">
+            <div class="right-main-content dis-flex-col">
+                <section id="corouse"> 
+                    <div class="corouse no-scroll-bar">
+                        <div class="corouse-img">
+                            <a href="./Single Playlist Screen/single_playlist.html" target="_blank"><img src="./Image/Scoll-image-1.webp" alt=""></a>
+                        </div>
+    
+                        <div class="corouse-img">
+                            <a href="./Single Playlist Screen/single_playlist.html" target="_blank"><img src="./Image/Scoll-image-2.webp" alt=""></a>
+                        </div>
+                        
+                        <div class="corouse-img">
+                            <a href="./Single Playlist Screen/single_playlist.html" target="_blank"><img src="./Image/Scoll-image-3.webp" alt=""></a>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- LATEST RELEASE BOX -->
+                
+                <section id="latest-release-box">
+                    <div class="latest-release-box dis-flex-col">
+                        <div class="latest-release-title">
+                            <h1>Latest Release</h1>
+                        </div>
+
+                        <div class="latest-release-content-box dis-flex-row">
+                            <!-- <div class="l-r-box dis-flex-row">
+                                <div class="l-r-image">
+                                    <a href=""><img src="./Image/Latest Release.jpeg" alt=""></a>
+                                </div>
+
+                                <div class="adjust-center dis-flex-col">
+                                    <div class="more-icon">
+                                        <a href="" class="a-decoration-none"><i class="fa-solid fa-ellipsis"></i></a>
+
+                                        <div class="btn-box">
+                                            <div class="play-icon-f">
+                                                <i class="fa-solid fa-play"></i>
+                                                <h4>Play Now</h4>
+                                            </div>
+                                    
+                                            <hr>
+                                    
+                                            <div class="play-icon-f">
+                                                <i class="fa-solid fa-plus"></i>
+                                                <h4>Add To Queue</h4>
+                                            </div>
+                                    
+                                            <hr>
+                                    
+                                            <div class="play-icon-f">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                <h4>Add To Favourites</h4>
+                                            </div>
+                                    
+                                            <hr>
+                                    
+                                            <div class="play-icon-f">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                                <h4>Get Info</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="l-r-song-detail dis-flex-row">
+                                        <div class="song-name">
+                                            <a href="#" class="a-decoration-none"><h4>Believer</h4></a>
+                                        </div>
+    
+                                        <div class="song-duration">
+                                            2:44
+                                        </div>
+                                    </div>
+    
+                                    <div class="song-release-date">
+                                        11/3/2023
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </section>
+ 
+
+                <!-- ///////////////////POPULAR ARTIST BOX///////////// -->
+
+
+                <section id="popular-artist-box">
+                    <div class="popular-artist-box dis-flex-col no-scroll-bar">
+
+                        <div class="popular-artist-title">
+                            <h1>Popular Artist</h1>
+                        </div>        
+                        
+                        <div class="artist-scroll dis-flex-row no-scroll-bar">
+                            <div class="artist-box dis-flex-col">
+                                <div class="artist-img">
+                                    <a href="/Single Playlist Screen/single_playlist.html"><img src="./Image/Arijit Singh.jpeg" alt=""></a>
+
+                                    <!-- <div class="pause-hover border"> -->
+                                        <i class="fa-solid play-icon fa-play"></i>
+                                    <!-- </div> -->
+                                </div>
+        
+                                <div class="aritist name">
+                                    <h4>Arijit Singh</h4>
+                                </div>
+                            </div>
+        
+                            <div class="artist-box dis-flex-col">
+                                <div class="artist-img">
+                                    <a href="/Single Playlist Screen/single_playlist.html"><img src="./Image/Arijit Singh.jpeg" alt=""></a>
+
+                                    <!-- <div class="pause-hover border"> -->
+                                        <i class="fa-solid play-icon fa-play"></i>
+                                    <!-- </div> -->
+                                </div>
+        
+                                <div class="aritist name">
+                                    <h4>Arijit Singh</h4>
+                                </div>
+                            </div>
+        
+                            <div class="artist-box dis-flex-col">
+                                <div class="artist-img">
+                                    <a href="/Single Playlist Screen/single_playlist.html"><img src="./Image/Arijit Singh.jpeg" alt=""></a>
+
+                                    <!-- <div class="pause-hover border"> -->
+                                        <i class="fa-solid play-icon fa-play"></i>
+                                    <!-- </div> -->
+                                </div>
+        
+                                <div class="aritist name">
+                                    <h4>Arijit Singh</h4>
+                                </div>
+                            </div>
+        
+                            <div class="artist-box dis-flex-col">
+                                <div class="artist-img">
+                                    <a href="/Single Playlist Screen/single_playlist.html"><img src="./Image/Arijit Singh.jpeg" alt=""></a>
+
+                                    <!-- <div class="pause-hover border"> -->
+                                        <i class="fa-solid play-icon fa-play"></i>
+                                    <!-- </div> -->
+                                </div>
+        
+                                <div class="aritist name">
+                                    <h4>Arijit Singh</h4>
+                                </div>
+                            </div>
+        
+                            <div class="artist-box dis-flex-col">
+                                <div class="artist-img">
+                                    <a href="/Single Playlist Screen/single_playlist.html"><img src="./Image/Arijit Singh.jpeg" alt=""></a>
+
+                                    <!-- <div class="pause-hover border"> -->
+                                        <i class="fa-solid play-icon fa-play"></i>
+                                    <!-- </div> -->
+                                </div>
+        
+                                <div class="aritist name">
+                                    <h4>Arijit Singh</h4>
+                                </div>
+                            </div>
+                            
+                            <div class="artist-box dis-flex-col">
+                                <div class="artist-img">
+                                    <a href="/Single Playlist Screen/single_playlist.html"><img src="./Image/Arijit Singh.jpeg" alt=""></a>
+
+                                    <!-- <div class="pause-hover border"> -->
+                                        <i class="fa-solid play-icon fa-play"></i>
+                                    <!-- </div> -->
+                                </div>
+        
+                                <div class="aritist name">
+                                    <h4>Arijit Singh</h4>
+                                </div>
+                            </div>
+        
+                            <div class="artist-box dis-flex-col">
+                                <div class="artist-img">
+                                    <a href="/Single Playlist Screen/single_playlist.html"><img src="./Image/Arijit Singh.jpeg" alt=""></a>
+
+                                    <!-- <div class="pause-hover border"> -->
+                                        <i class="fa-solid play-icon fa-play"></i>
+                                    <!-- </div> -->
+                                </div>
+        
+                                <div class="aritist name">
+                                    <h4>Arijit Singh</h4>
+                                </div>
+                            </div>
+        
+                            <div class="artist-box dis-flex-col">
+                                <div class="artist-img">
+                                    <a href="/Single Playlist Screen/single_playlist.html"><img src="./Image/Arijit Singh.jpeg" alt=""></a>
+
+                                    <!-- <div class="pause-hover border"> -->
+                                        <i class="fa-solid play-icon fa-play"></i>
+                                    <!-- </div> -->
+                                </div>
+        
+                                <div class="aritist name">
+                                    <h4>Arijit Singh</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- SONG CATAGORY SECTION -->
+
+                <section id="song-catagory-section">
+                    <div class="song-catagory-box dis-flex-row no-scroll-bar">
+                        <div class="cat-box">
+                            <div class="cat-img dis-flex-col">
+                                <figure><img src="./Image/Song Catagory/Love.jpg" alt=""></figure>
+                                <figcaption><a href="" class="a-decoration-none">Love</a></figcaption>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img dis-flex-col">
+                                <figure><img src="./Image/Song Catagory/Retro.jpg" alt=""></figure>
+                                <figcaption><a href="" class="a-decoration-none">Retro</a></figcaption>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img dis-flex-col">
+                                <figure><img src="./Image/Song Catagory/Chill.jpg" alt=""></figure>
+
+                                <figcaption><a href="" class="a-decoration-none">Chill</a></figcaption>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img dis-flex-col">
+                                <figure><img src="./Image/Song Catagory/Workout.jpg" alt=""></figure>
+                                <figcaption><a href="" class="a-decoration-none">Workout</a></figcaption>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img dis-flex-col">
+                                <figure><img src="./Image/Song Catagory/Rock.jpg" alt=""></figure>
+                                <figcaption><a href="" class="a-decoration-none">Rock</a></figcaption>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img dis-flex-col">
+                                <figure><img src="./Image/Song Catagory/Pop.jpg" alt=""></figure>
+                                <figcaption><a href="" class="a-decoration-none">Pop</a></figcaption>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img dis-flex-col">
+                                <figure><img src="./Image/Song Catagory/Hip Hop.png" alt=""></figure>
+                                <figcaption><a href="" class="a-decoration-none">Hip Hop</a></figcaption>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img dis-flex-col">
+                                <figure><img src="./Image/Song Catagory/Old Song.jpg" alt=""></figure>
+                                
+                                <figcaption><a href="" class="a-decoration-none">1992</a></figcaption>
+                            </div>
+                        </div>
+
+                        <div class="cat-box">
+                            <div class="cat-img dis-flex-col">
+                                <figure><img src="./Image/Song Catagory/Retro.jpg" alt=""></figure>
+                                <figcaption><a href="" class="a-decoration-none">Old</a></figcaption>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- //////////////////////// SECOND SONG CATAGORY SECTION OF IMAGE -->
+
+                <section id="song-catagory-section-2">
+                    <div class="song-catagory-box-image dis-flex-row">
+                        <div class="song-img-sec-2 dis-flex-col">
+                            <img src="./Image/Song Catagory 2/Electronic.jpg" alt="">
+
+                            <div class="img-hover-content">
+                                <h1><a href="" class="a-decoration-none">Electronics</a></h1>
+                            </div>
+                        </div>
+
+                        <div class="song-img-sec-2 dis-flex-col">
+                            <img src="./Image/Song Catagory 2/Party.jpg" alt="">
+
+                            <div class="img-hover-content">
+                                <h1><a href="" class="a-decoration-none">Party</a></h1>
+                            </div>
+                        </div>
+
+                        <div class="song-img-sec-2 dis-flex-col">
+                            <img src="./Image/Song Catagory 2/Road Trip.jpg" alt="">
+
+                            <div class="img-hover-content">
+                                <h1><a href="" class="a-decoration-none">Road Trip</a></h1>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- /////////////////////////// LATEST ENGLISH SECTION ///////////////////////////// -->
+
+                <section id="latest-english-section">
+                    <div class="latest-english-section dis-flex-col">
+                        <div class="latest-english-title">
+                            Latest English
+                        </div>
+
+                        <div class="latest-english-main-content-box dis-flex-row no-scroll-bar">
+                            <div class="latest-song-single-box dis-flex-col">
+                                <div class="latest-song-img">
+                                    <img src="./Image/Believer.jpg" alt="">
+                                </div>
+
+                                <div class="latest-song-detail dis-flex-col">
+                                    <div class="latest-song-name">
+                                        <a href="" class="a-decoration-none">Believer</a>
+                                    </div>
+
+                                    <div class="latest-song-release-date">
+                                        May 23,2018
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+    <!-- LATEST HINDI SECTION  -->
+
+    <section id="latest-hindi-section">
+        <div class="latest-hindi-section dis-flex-col">
+            <div class="latest-hindi-title">
+                Latest Hindi
+            </div>
+
+            <div class="latest-hindi-main-content-box dis-flex-row no-scroll-bar">
+                <div class="latest-hindi-song-single-box dis-flex-col">
+                    <div class="latest-hindi-song-img">
+                        <img src="./Image/Believer.jpg" alt="">
+                    </div>
+
+                    <div class="latest-hindi-song-detail dis-flex-col">
+                        <div class="latest-hindi-song-name">
+                            <a href="" class="a-decoration-none">Believer</a>
+                        </div>
+
+                        <div class="latest-hindi-song-release-date">
+                            May 23,2018
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-song-single-box dis-flex-col">
+                    <div class="latest-song-img">
+                        <img src="./Image/Believer.jpg" alt="">
+                    </div>
+
+                    <div class="latest-song-detail dis-flex-col">
+                        <div class="latest-song-name">
+                            <a href="" class="a-decoration-none">Believer</a>
+                        </div>
+
+                        <div class="latest-song-release-date">
+                            May 23,2018
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-song-single-box dis-flex-col">
+                    <div class="latest-song-img">
+                        <img src="./Image/Believer.jpg" alt="">
+                    </div>
+
+                    <div class="latest-song-detail dis-flex-col">
+                        <div class="latest-song-name">
+                            <a href="" class="a-decoration-none">Believer</a>
+                        </div>
+
+                        <div class="latest-song-release-date">
+                            May 23,2018
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-song-single-box dis-flex-col">
+                    <div class="latest-song-img">
+                        <img src="./Image/Believer.jpg" alt="">
+                    </div>
+
+                    <div class="latest-song-detail dis-flex-col">
+                        <div class="latest-song-name">
+                            <a href="" class="a-decoration-none">Believer</a>
+                        </div>
+
+                        <div class="latest-song-release-date">
+                            May 23,2018
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-song-single-box dis-flex-col">
+                    <div class="latest-song-img">
+                        <img src="./Image/Believer.jpg" alt="">
+                    </div>
+
+                    <div class="latest-song-detail dis-flex-col">
+                        <div class="latest-song-name">
+                            <a href="" class="a-decoration-none">Believer</a>
+                        </div>
+
+                        <div class="latest-song-release-date">
+                            May 23,2018
+                        </div>
+                    </div>
+                </div>
+
+                <div class="latest-song-single-box dis-flex-col">
+                    <div class="latest-song-img">
+                        <img src="./Image/Believer.jpg" alt="">
+                    </div>
+
+                    <div class="latest-song-detail dis-flex-col">
+                        <div class="latest-song-name">
+                            <a href="" class="a-decoration-none">Believer</a>
+                        </div>
+
+                        <div class="latest-song-release-date">
+                            May 23,2018
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+            <!-- ASIDE SECTION -->
+
+            <aside id="left-aside-content" class="">
+                    <div class="left-aside content">
+                        <div class="queue-header dis-flex-row">
+                            <div class="queue-title">
+                                <h1>Queue</h1>
+                            </div>
+                            
+                            <div class="queue-btn dis-flex-row">    
+                                <div class="queue-btn-header">
+                                    <a href="" class="a-decoration-none">Queue</a>
+                                </div>
+
+                                <i class="fa-solid fa-caret-down"></i>
+
+                                <div class="queue-btn-box">
+                                    <div class="queue-play-icon-f">
+                                        <h4>Play Now</h4>
+                                    </div>
+                                    <hr>
+            
+                                    <div class="queue-play-icon-f">
+                                        <h4>Add To Queue</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="main-queue dis-flex-col no-scroll-bar">
+                            <!-- <div class="main-queue-one-full-box dis-flex-row">
+                                <div class="queue-song-img">
+                                    <img src="./Image/Queue-img-1.jpeg" alt="">
+                                </div>
+
+                                <div class="song-name-and-singer-name dis-flex-col">
+                                    <div class="song-name">
+                                        <a href="#" class="a-decoration-none">Believer</a>
+                                    </div>
+
+                                    <div class="singer-name">
+                                        <a href="#" class="a-decoration-none">Imagine Dragon</a>
+                                    </div>
+                                </div>
+
+                                <div class="like-icon dis-flex-row">
+                                    <i class="fa-solid fa-heart"></i>
+                                </div> -->
+                            <!-- </div> -->
+                        </div>
+                    </div>
+
+                    <div class="playlist dis-flex-col">
+                        <div class="form">
+                            <form action="" id="playlist-form">
+                                <input type="text" required class="input-playlist" placeholder="Playlist Name">
+                                <button type="submit">Create Playlist</button>
+                            </form>
+                        </div>
+
+                        <div class="current-playlist dis-flex-col">
+                            Currenty you don't have any playlist
+
+                            <!-- <div class="c-playlist-box dis-flex-row">
+                                Dhyey
+                            </div> -->
+                        </div>
+
+                        <div class="all-playlist">
+                            <!-- <div class="playlist-name dis-flex-row">
+                                <div id="temp" class="dis-flex-row">
+                                    <h3>adsf</h3>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+            </aside>
+
+        </section>
+    </main>
+
+    <section id="audio-control">
+        <div class="audio-control-main dis-flex-row">
+            <div class="dis-flex-row main-audio-panel">
+                <div id="song-detail" class="dis-flex-row">
+                    <div class="current-playing-song-img">
+    
+                    </div>
+    
+                    <div class="current-playing-song-name">
+    
+                    </div>
+                </div>
+    
+                <div class="audio-control dis-flex-row">
+                    <div class="song-img"> 
+                        <!-- audio here -->
+                    </div>
+                </div>
+        
+                <div class="function dis-flex-row">
+                    <div class="previous-button">
+                        <i class="fa-solid fa-backward-step"></i>
+                    </div>
+            
+                    <div class="next-button">
+                        <i class="fa-solid fa-forward-step"></i>
+                    </div>
+        
+                    <div class="add-to-playlist">
+                        <button>Add to Playlist</button>
+                    </div>
+                </div>
+            </div>       
+        </div> 
+    </section>
+
+    <script src="./home_page.js"></script>
+</body>
+</html>
